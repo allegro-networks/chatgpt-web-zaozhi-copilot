@@ -18,7 +18,6 @@ import ConfirmIcon from "../icons/confirm.svg";
 import CopyIcon from "../icons/copy.svg";
 import ImageIcon from "../icons/image.svg";
 import LoadingButtonIcon from "../icons/loading.svg";
-import MaskIcon from "../icons/mask.svg";
 import MaxIcon from "../icons/max.svg";
 import MinIcon from "../icons/min.svg";
 import PinIcon from "../icons/pin.svg";
@@ -542,13 +541,13 @@ export function ChatActions(props: {
         icon={<PromptIcon />}
       /> */}
 
-      <ChatAction
+      {/* <ChatAction
         onClick={() => {
           navigate(Path.Masks);
         }}
         text={Locale.Chat.InputActions.Masks}
         icon={<MaskIcon />}
-      />
+      /> */}
 
       <ChatAction
         text={Locale.Chat.InputActions.Clear}
