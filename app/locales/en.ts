@@ -383,7 +383,8 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello:
+      "Hello! I am the Equipment Diagnosis Assistant of the papermaking experimental equipment R&D center of China National Pulp and Paper Research Institute. How can I assist you today?",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
