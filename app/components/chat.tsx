@@ -12,7 +12,6 @@ import { useDebouncedCallback } from "use-debounce";
 import BrainIcon from "../icons/brain.svg";
 import BreakIcon from "../icons/break.svg";
 import CancelIcon from "../icons/cancel.svg";
-import SettingsIcon from "../icons/chat-settings.svg";
 import DeleteIcon from "../icons/clear.svg";
 import ConfirmIcon from "../icons/confirm.svg";
 import CopyIcon from "../icons/copy.svg";
@@ -503,13 +502,13 @@ export function ChatActions(props: {
           icon={<BottomIcon />}
         />
       )}
-      {props.hitBottom && (
+      {/* {props.hitBottom && (
         <ChatAction
           onClick={props.showPromptModal}
           text={Locale.Chat.InputActions.Settings}
           icon={<SettingsIcon />}
         />
-      )}
+      )} */}
 
       {showUploadImage && (
         <ChatAction
