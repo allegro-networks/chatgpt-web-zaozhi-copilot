@@ -41,7 +41,7 @@ interface ChatCommands {
   del?: Command;
 }
 
-export const ChatCommandPrefix = ":";
+export const ChatCommandPrefix = "$$%%$$*";
 
 export function useChatCommand(commands: ChatCommands = {}) {
   function extract(userInput: string) {
