@@ -36,7 +36,6 @@ import BottomIcon from "../icons/bottom.svg";
 import DarkIcon from "../icons/dark.svg";
 import LightIcon from "../icons/light.svg";
 import StopIcon from "../icons/pause.svg";
-import RobotIcon from "../icons/robot.svg";
 
 import {
   BOT_HELLO,
@@ -564,11 +563,11 @@ export function ChatActions(props: {
         }}
       />
 
-      <ChatAction
+      {/* <ChatAction
         onClick={() => setShowModelSelector(true)}
         text={currentModel}
         icon={<RobotIcon />}
-      />
+      /> */}
 
       {showModelSelector && (
         <Selector
