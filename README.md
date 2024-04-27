@@ -3,7 +3,10 @@
 URL: 
 
 - https://zhi.ai.iot.fit
-- https://zhi-ai.vercel.app
+
+### Default Branch
+
+`prod` is default branch.
 
 ### Env
 
