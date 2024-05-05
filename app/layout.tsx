@@ -10,8 +10,8 @@ import "./styles/markdown.scss";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "纸院大模型",
-  description: "智能设备中心故障诊断助手",
+  title: "智检平台 AI 助手",
+  description: "智能设备中心 AI 助手",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "纸院大模型-智能设备中心故障诊断助手",
+    title: "纸院大模型-智检平台 AI 助手",
     statusBarStyle: "default",
   },
 };
