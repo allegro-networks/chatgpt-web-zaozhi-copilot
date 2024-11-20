@@ -7,6 +7,6 @@ URL:
 
 ### Env
 
-- `BASE_URL`
+- `BASE_URL`：`https://api.vivgrid.com/v1`
 - `OPENAI_API_TOKEN`
 
